@@ -1,7 +1,7 @@
 <script>
 	import colors from 'nice-color-palettes';
 	import seedrandom from 'seedrandom';
-	import logo from '$lib/assets/shaliha.jpeg';
+	import logo from '/images/shaliha.jpeg';
 
 	export let count = 300;
 	export let width = 750;
