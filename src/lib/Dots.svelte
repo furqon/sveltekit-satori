@@ -1,6 +1,7 @@
 <script>
 	import colors from 'nice-color-palettes';
 	import seedrandom from 'seedrandom';
+	import logo from '$lib/assets/shaliha.jpeg';
 
 	export let count = 300;
 	export let width = 750;
@@ -60,6 +61,7 @@
 		>
 			{seed}
 		</p>
+		<img alt="shaliha" src={logo} />
 	</div>
 </div>
 
